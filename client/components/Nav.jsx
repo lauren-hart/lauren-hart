@@ -7,13 +7,13 @@ class Nav extends React.Component {
       <div>
         <div className="nav row">
           <div className="col-md-4 about-nav nav-box">
-            <Link to ""><button className="nav-button">about</button></Link>
+            {/* <Link to ='/about'><button className="nav-button">about</button></Link> */}
           </div>
           <div className="col-md-4 experience-nav nav-box">
-            <button className="nav-button">experience</button>
+            {/* <Link to ='/experience'><button className="nav-button">experience</button></Link> */}
           </div>
           <div className="col-md-4 projects-nav nav-box">
-            <button className="nav-button">projects</button>
+            {/* <Link to ='/projects'><button className="nav-button">projects</button></Link> */}
           </div>
         </div>
 
