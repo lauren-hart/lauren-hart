@@ -5,6 +5,7 @@ class EDA extends React.Component {
   render () {
     return (
       <div className="row">
+        <h3 className="eda-h3"><a href="exp" id="exp">Experience</a></h3>
         <div className="col-md-6 eda">
           <h3 className="eda-h3">Enspiral Dev Academy</h3>
           <p className="eda-p">

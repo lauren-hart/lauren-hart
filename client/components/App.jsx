@@ -13,11 +13,11 @@ class App extends React.Component {
       <div className='app'>
         <Switch>
           <div>
-            <Home path='/' component={Home} />
-            <About path='/about' component={About} />
-            <Stack path='/stack' component={Stack} />
-            <Experience path='/experience' component={Experience} />
-            <Projects path='/projects' component={Projects} />
+            <Route path='/' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/stack' component={Stack} />
+            <Route path='/experience' component={Experience} />
+            <Route path='/projects' component={Projects} />
           </div>
         </Switch>
       </div>
