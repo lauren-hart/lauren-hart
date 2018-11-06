@@ -18,7 +18,7 @@ class About extends React.Component {
                   I have a love for using technology to automate and solve
                   everyday tasks and problems. < br />
                   I am looking for a role that will challenge me <br /> and enable
-                  me to learn every day,  where I can see that the input
+                  me to learn every day, where I can see that the input
                   I'm giving is making an impact on users. < br />
                   I want to be part of a team that's proud of their work.< br />
 
