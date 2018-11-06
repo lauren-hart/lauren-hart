@@ -239,6 +239,33 @@ button:hover {
   text-align: center
 }
 
+.cv {
+  background: #32435F;
+  color: white;
+  width: 50%;
+  padding: 20px;
+  text-transform: uppercase
+}
+
+.cv:hover {
+  background: white;
+  color: #32435F;
+  text-decoration: none
+}
+
+.a-cv:hover {
+  background: white;
+  color: #32435F;
+  text-decoration: none
+}
+
+.cv {
+  margin: 20px 0
+}
+
+
+
+
 /* HOBBIES SECTION ----------------------------------- */
 
 .hobbies-h5 {
@@ -599,7 +626,7 @@ margin-top: 160px
 }
 
   .col-md-6 {
-    max-width: 100%;
+    max-width: 60%;
     flex: 0 0 50%;
   }
 
