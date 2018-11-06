@@ -3,14 +3,15 @@ import {Link} from 'react-router-dom'
 import About from './About'
 import Experience from './Experience'
 import Stack from './Stack'
+import Header from './Header'
 
 class Home extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      home: false,
-      contact: false,
-      projects: false
+      // home: false,
+      // contact: false,
+      // projects: false
     }
     // this.handleContact = this.handleContact.bind(this)
     // this.handleHome = this.handleHome.bind(this)
@@ -44,7 +45,8 @@ class Home extends React.Component {
   render () {
     return (
       <div>
-        <header className="header">
+        <Header />
+        {/* <header className="header">
           <h1 className="name-h1">Lauren Hart</h1>
           <h5 className="title-h5">full stack developer</h5>
           <div className="row">
@@ -67,7 +69,7 @@ class Home extends React.Component {
               <Link to="/projects"><button className="nav-button">projects</button></Link>
             </div>
           </div>
-        </header>
+        </header> */}
         {/* <header className="header">
           <h1 className="name-h1">Lauren Hart</h1>
           <h5 className="title-h5">full stack developer</h5>
