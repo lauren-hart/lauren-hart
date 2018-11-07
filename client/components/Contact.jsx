@@ -34,7 +34,7 @@ class Contact extends React.Component {
 
               <div className="contact-details">
                 <h4 className="contact-h4">github:</h4>
-                <a href="https://github.com/lauren-hart" className="contact-link">have a look!</a>
+                <a href="https://github.com/lauren-hart" className="contact-link">check it out</a>
               </div>
 
             </div>

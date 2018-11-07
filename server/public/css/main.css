@@ -195,12 +195,24 @@ button:hover {
 }
 
 .contact-h4 {
-  font-size: 1.1rem
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.2rem 0;
+  padding: 8px 0 0 0px;
+  font-weight: bolder
+
+}
+
+.contact-p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.2rem 0;
+
 }
 
 .contact-link {
   color: #32435F;
-  text-decoration: underline
+  text-decoration: underline;
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 1.1rem
 }
 
 .contact-link:hover {
@@ -210,12 +222,10 @@ button:hover {
 .contact-details {
   margin-top: auto;
   margin-bottom: auto;
-
-  
+  border-bottom: solid 1px #32435F;
 }
 
 .contact-box {
-  border: solid 1px #32435F;
   margin: 20px 0;
   padding: 10px;
 }
@@ -569,7 +579,24 @@ margin-top: 160px
   }
 
   .contact-h4 {
-    width: 30%
+    font-size: 1.1rem;
+    margin: 0.5rem 0 0.2rem 0;
+    padding: 4px 0 0 10px;
+    width: 25%
+  
+  }
+  
+  .contact-p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 0.2rem 0;
+  
+  }
+  
+  .contact-link {
+    color: #32435F;
+    text-decoration: underline;
+    margin: 0.5rem 0 0.2rem 0;
+    font-size: 1.1rem
   }
 
   .cv {
