@@ -5,11 +5,28 @@ class Header extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      home: false
+      selected: false
     }
   }
 
+  componentDidMount () {
+    this.props.path === '/' ? this.setState({
+      selected: true
+    }) : this.setState({
+      selected: false
+    })
+  }
+
   render () {
+    const butStyle = {
+      background: 'white',
+      color: '#8F8681'
+    }
+    const defaultStyle = {
+      background: 'none',
+      color: 'white'
+    }
+
     return (
       <header className="header">
         <h1 className="name-h1">Lauren Hart</h1>
@@ -23,16 +40,37 @@ class Header extends React.Component {
         </div>
 
         <div className="nav row">
-          <div className="col-md-4 home-nav nav-box">
-            <Link to="/"><button className="nav-button">home</button></Link>
 
-          </div>
+          {this.state.selected
+            ? <div className="col-md-4 home-nav-selected nav-box">
+              <Link to="/"><button>home</button></Link>
+            </div>
+            : <div className="col-md-4 home-nav nav-box">
+              <Link to="/"><button>home</button></Link>
+            </div>
+          }
+
+          {/* <div className="col-md-4 home-nav nav-box">
+            <Link to="/"><button onClick={this.handleClick}
+              style={this.props.path === '/'
+                ? butStyle
+                : defaultStyle}>home</button></Link>
+          </div> */}
+
           <div className="col-md-4 contact-nav nav-box">
-            <Link to="/contact"><button className="nav-button">contact</button></Link>
+            <Link to="/contact"><button onClick={this.handleClick}
+              className={this.state.contact
+                ? 'nav-button-selected'
+                : 'nav-button'}>contact</button></Link>
           </div>
+
           <div className="col-md-4 projects-nav nav-box">
-            <Link to="/projects"><button className="nav-button">projects</button></Link>
+            <Link to="/projects"><button onClick={this.handleClick}
+              className={this.state.projects
+                ? 'nav-button-selected'
+                : 'nav-button'}>projects</button></Link>
           </div>
+
         </div>
       </header>
     )
