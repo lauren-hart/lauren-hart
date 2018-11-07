@@ -500,6 +500,15 @@ margin-top: 160px
   margin: 40px 20px 20px 20px;
 }
 
+
+.project-box {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .projects-h3 {
   text-align: center;
   padding: 20px 20px 20px 20px;
@@ -541,6 +550,31 @@ margin-top: 160px
 .project-heading {
   flex-wrap: wrap;
   display: flex; 
+}
+
+.github {
+  background: #32435F;
+  color: white;
+  width: 50%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 0.9rem
+}
+
+.github:hover {
+  background: white;
+  color: #32435F;
+  text-decoration: none
+}
+
+.a-github:hover {
+  background: white;
+  color: #32435F;
+  text-decoration: none
 }
 
 /* Larger than phablet  ----------------------------------------------------------------------------------*/
@@ -601,6 +635,10 @@ margin-top: 160px
 
   .cv {
     width: 60%
+  }
+
+  .github {
+    width: 30%
   }
 
   /* GOLF SECTION ----------------------------------- */
@@ -684,12 +722,25 @@ margin-top: 160px
     width: 50%
   }
 
+ 
+
 
 
 }
 
 /* Larger than desktop  ----------------------------------------------------------------------------------*/
 @media (min-width: 1000px) {
+
+  
+.project-box {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.github {
+  width: 50%
+}
+
   button {
     height: 50px;
     margin-top: 20px;
@@ -772,4 +823,8 @@ margin-top: 160px
     width: 50%;
     display: initial;
   } 
+
+  .github {
+    width: 40%
+  }
 }

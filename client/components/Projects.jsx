@@ -14,7 +14,7 @@ class Projects extends React.Component {
 
         <div className="projects">
           <h3 className="projects-h3">Projects</h3>
-          <div className="col-md-4">
+          <div className="project-box">
             <div className="project">
               <h4 className="projects-h4">Buy My Kai</h4>
               <p className="p-project">Buy My Kai is a web app that connects
@@ -25,11 +25,13 @@ class Projects extends React.Component {
                We are looking to continue with the project and hope to
                deploy very soon.
               </p>
+              <a className="a-github" href="https://github.com/nikau-2018/Buy-My-Kai"><h5 className="github">github</h5></a>
+
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="project-box">
             <div className="project">
-              <h4 className="projects-h4">Punt Club</h4>
+              <h4 className="projects-h4">Lunchbunch</h4>
               <p className="p-project">
               Lunch Bunch was a project completed at EDA
               as part of PackHac 2018. <br /> <br />
@@ -41,11 +43,13 @@ class Projects extends React.Component {
               about healthy school lunches and taking
               the stress away from busy parents.
               </p>
+              <a className="a-github" href="https://github.com/nikau-2018/lunchbunch"><h5 className="github">github</h5></a>
+
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="project-box">
             <div className="project">
-              <h4 className="projects-h4">Lunchbunch</h4>
+              <h4 className="projects-h4">Punt Club</h4>
               <p className="p-project">
               This is a personal project I have been working on. <br />
                 <br />
@@ -56,7 +60,9 @@ class Projects extends React.Component {
                standings and wanted something to work on that
                would allow me to translate my excel skills onto
                the web and help me practice React/Redux and APIs. </p>
+              <a className="a-github" href="https://github.com/lauren-hart/punting-club"><h5 className="github">github</h5></a>
             </div>
+
           </div>
         </div>
       </div>
