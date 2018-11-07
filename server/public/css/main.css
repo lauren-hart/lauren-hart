@@ -11,7 +11,7 @@
 
 /* Example to use for a background image to cover the whole page */
 
-.bg-yellow {
+/* .bg-yellow {
   background-image: url("../images/yellow-bg.jpg");
   background-color: grey;
   background-position: center;
@@ -31,7 +31,7 @@
   width: 45%;
   display:flex;
   align-items: center;
-}
+} */
 
 /* MOBILE FIRST DESIGN ----------------------------------------------------------------------------------------------------------- */
 
@@ -367,8 +367,8 @@ button:hover {
 
 .snowboard-h5 {
   text-align: right;
-  padding-top: 150px;
-  padding-right: 55px;
+  padding-top: 10px;
+  padding-right: 25px;
   letter-spacing: 2px;
   font-size: 1.0rem
 }
